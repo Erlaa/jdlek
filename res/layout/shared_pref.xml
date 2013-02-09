@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:padding="8dp" >
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Namn">
+    </EditText>
+    <EditText 
+        android:id="@+id/editText2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Värde"
+        android:layout_below="@id/editText1"/>
+	<Button 
+	    android:text="Spara"
+	    android:layout_height="wrap_content"
+	    android:layout_width="wrap_content"
+	    android:id="@+id/prefSave"
+	    android:layout_below="@id/editText2"
+	   	android:paddingTop="8dp"/>
+	<Button 
+	    android:text="getAll()"
+	    android:id="@+id/getAllButton"
+	    android:layout_height="wrap_content"
+	    android:layout_width="wrap_content"
+	    android:layout_toRightOf="@id/prefSave"
+	    android:layout_below="@id/editText2"
+	    android:paddingTop="8dp"/>
+	<TextView 
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:text="getAll()-output"
+	    android:layout_below="@id/getAllButton"
+	    android:paddingTop="8dp"
+	    android:textSize="20dp"
+	    android:textColor="#808080" 
+	    android:id="@+id/getAllOutP"/>
+	<Button 
+	    android:text="Döda Aktivitet"
+	    android:layout_height="wrap_content"
+	    android:layout_width="fill_parent"
+	    android:layout_alignParentBottom="true"
+	    android:id="@+id/sharedPrefKill"/>
+</RelativeLayout>

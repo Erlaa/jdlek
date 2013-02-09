@@ -1,0 +1,28 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+   	android:layout_height="wrap_content" >
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Öppna ny aktivitet"
+        android:id="@+id/button"
+        android:clickable="true" >
+        </Button>
+
+	<TextView
+	    android:id="@+id/text"
+	    android:layout_height="wrap_content"
+	    android:layout_width="fill_parent"
+	    android:layout_below="@id/button"
+	    android:text="TextView"
+	    android:gravity="center"
+	    android:textSize="20dp"/>
+	<Button 
+	    android:text="SharedPref test"
+	    android:id="@+id/sharedPref"
+	    android:layout_height="wrap_content"
+	    android:layout_width="wrap_content"
+	    android:layout_below="@id/text"/>
+</RelativeLayout>
