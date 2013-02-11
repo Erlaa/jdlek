@@ -1,7 +1,5 @@
 package john.daniel.lek;
 
-import java.util.Map;
-
 import android.app.Activity;
 import android.content.SharedPreferences;
 import android.os.Bundle;

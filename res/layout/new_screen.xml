@@ -3,7 +3,8 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:orientation="horizontal"
-    android:padding="8dp" >
+    android:padding="8dp" 
+    android:background="@color/greyBackground">
 
     <Button 
         android:text="Döda aktiviten"
